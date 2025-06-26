@@ -4,8 +4,8 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 import re
 
-parquet_file = 'C:/Py/Baim/resources/data/Repos/mmlu/all/auxiliary_train-00000-of-00001.parquet'
-name = "C:/Py/Baim/resources/data/Repos/mmlu/all/auxiliary_train"
+parquet_file = 'FilePath'
+name = "FilePath"
 
 
 class Parquettocsv:
