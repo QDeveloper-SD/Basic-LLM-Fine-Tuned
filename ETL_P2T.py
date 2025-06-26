@@ -28,7 +28,7 @@ class ParquetDataset(Dataset):
         return self.len
 
 
-parquet_file = 'C:/Py/Baim/resources/data/Repos/mmlu/all/auxiliary_train-00000-of-00001.parquet'
+parquet_file = 'FilePath'
 dataset = ParquetDataset(parquet_file)
 dataloaderNA = DataLoader(dataset, batch_size=32)
 
@@ -39,7 +39,7 @@ for batch_idx, (data, target) in enumerate(dataloaderNA):
 #####################################################################################
 
 
-pf = 'C:/Py/Baim/resources/data/Repos/mmlu/all/auxiliary_train.csv'
+pf = 'FilePath'
 pfd = pd.read_csv(pf)
 df1 = pd.DataFrame(pfd)
 word_col = ['choices', 'question', 'subject']
