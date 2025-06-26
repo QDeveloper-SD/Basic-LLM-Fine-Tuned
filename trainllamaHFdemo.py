@@ -26,7 +26,7 @@ def tokenize_function(example):
 # === Your dataset goes here ===
 # Replace this with your actual dataset
 # Example: dataset = load_dataset("your_dataset_name")
-pf = 'C:/Py/Baim/resources/data/Repos/mmlu/all/auxiliary_train.csv'
+pf = 'FilePath'
 pfd = pd.read_csv(pf)
 # df1 = pd.DataFrame(pfd)
 dataset = load_dataset(pfd)
